@@ -1,41 +1,86 @@
-*{
+* {
     /* Réinitialisation des marges/paddings par défaut */
     margin: 0;
     padding: 0;
-
-    /* Suppression du style par défaut des listes et des liens */
-    list-style: none;
-    text-decoration: none;
-
 }
 
-nav{
+body{
+    background-color: whitesmoke;
+}
+
+header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    background-color: whitesmoke;
+    height: 50px;
 }
 
-ul{
+.list nav ul {
+    list-style: none;
     display: flex;
-    justify-content: space-around;
-    
+    gap: 350px; 
+    margin-right: 50px;
 }
 
-#div1 {
+.list nav ul li {
+    display: inline;
+}
+
+#logo{
+    width: 50%;
+    background-color: beige;
+}
+
+a:link{
+    color: black;
+}
+
+#sec1{
+    background-color: rgb(56, 56, 56);
     display: flex;
-    margin: 100%;
-    background-color: black;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  #d1, #d2 {
+    width: 50%;
+  }
+  
+  #d1 {
+    text-align: left;
+  }
+
+  #potter{
+    margin: auto;
+    padding: auto;
+    width: auto;
+    height: auto;
+    }
+  
+#d2 {
+    text-align: center;
+    color: white;
+  }
+
+.carte{
+    background-color: white;
+    /*height:355px*/
+    width: 200px;
+    padding: 40px;
+    /*marge des cotés qui est à définir*/
+    margin: 10px auto;
+    /* border radius pour arrondir les angles*/
+    border-radius: 20px;
+    text-align: center;
+    /*ombre*/
+    box-shadow: 1px 3px 10px 10px grey;
+    align-content: center;
+    display: flex;
+    flex-flow: row wrap;
 }
 
-    img {
-        width: 50%;
-    }
-
-    .d1 {
-        width: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
+#freeze{
+    text-align: center;
+}
+  
