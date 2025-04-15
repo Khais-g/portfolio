@@ -1,0 +1,41 @@
+*{
+    /* Réinitialisation des marges/paddings par défaut */
+    margin: 0;
+    padding: 0;
+
+    /* Suppression du style par défaut des listes et des liens */
+    list-style: none;
+    text-decoration: none;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#div1 {
+    display: flex;
+    margin: 100%;
+    background-color: black;
+}
+
+    img {
+        width: 50%;
+    }
+
+    .d1 {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
